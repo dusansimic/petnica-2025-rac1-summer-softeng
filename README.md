@@ -8,7 +8,6 @@ Korisna literatura: [Refactoring Guru](https://refactoring.guru/design-patterns/
 - [State pattern](https://refactoring.guru/design-patterns/state)
 - [Iterator pattern](https://refactoring.guru/design-patterns/iterator)
 - [Observer pattern](https://refactoring.guru/design-patterns/observer)
-- [Command pattern](https://refactoring.guru/design-patterns/command) ? skip ?
 - [Factory pattern](https://refactoring.guru/design-patterns/factory-method)
 
 ## Dizajn paterni
