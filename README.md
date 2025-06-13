@@ -22,6 +22,11 @@ Korisna literatura: [Refactoring Guru](https://refactoring.guru/design-patterns/
 1. Primer: [Player states](02_state/PlayerStatePattern.java)
 2. Vežba: [Zombie states](02_state/PRACTICE.md)
 
+### Iterator
+
+1. Primer: [Book iterator](03_iterator/BookIteratorPattern.java)
+2. Vežba: [Inventory iterator](03_iterator/PRACTICE.md)
+
 ## Licenca i autor
 
 Autor: Dušan Simić
