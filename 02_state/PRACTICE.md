@@ -14,3 +14,53 @@ stateDiagram-v2
     Attacking --> Retreating : low health
     Retreating
 ```
+
+```mermaid
+classDiagram
+
+    class ZombieState {
+        <<interface>>
+        + void act(Zombie)
+        + void onPlayerDetected(Zombie)
+        + void onLowHealth(Zombie)
+    }
+
+    class IdleState {
+        + void act(Zombie)
+        + void onPlayerDetected(Zombie)
+        + void onLowHealth(Zombie)
+    }
+
+    class ChasingState {
+        + void act(Zombie)
+        + void onPlayerDetected(Zombie)
+        + void onLowHealth(Zombie)
+    }
+
+    class AttackingState {
+        + void act(Zombie)
+        + void onPlayerDetected(Zombie)
+        + void onLowHealth(Zombie)
+    }
+
+    class RetreatingState {
+        + void act(Zombie)
+        + void onPlayerDetected(Zombie)
+        + void onLowHealth(Zombie)
+    }
+
+    class Zombie {
+        - ZombieState currentState
+        + Zombie()
+        + void setState(ZombieState)
+        + void act()
+        + void detectPlayer()
+        + void lowHealth()
+    }
+
+    ZombieState <|.. IdleState
+    ZombieState <|.. ChasingState
+    ZombieState <|.. AttackingState
+    ZombieState <|.. RetreatingState
+    Zombie --> ZombieState : uses
+```
