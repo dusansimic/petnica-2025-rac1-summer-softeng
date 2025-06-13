@@ -17,6 +17,11 @@ Korisna literatura: [Refactoring Guru](https://refactoring.guru/design-patterns/
 1. Primer: [Naive Singleton example](01_singleton/NaiveSingletonExample.java)
 2. Vežba: [Dragon Egg example](01_singleton/PRACTICE.md)
 
+### State
+
+1. Primer: [Player states](02_state/PlayerStatePattern.java)
+2. Vežba: [Zombie states](02_state/PRACTICE.md)
+
 ## Licenca i autor
 
 Autor: Dušan Simić
